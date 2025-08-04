@@ -1,4 +1,3 @@
-import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:bookly_app/features/home/views/home_view.dart';
 
@@ -18,7 +17,9 @@ class _SplashViewState extends State<SplashView>
     super.initState();
     initSlidingAnimation();
     Future.delayed(const Duration(seconds: 3), () {
-      Get.to(() => HomeView(), transition: Transition.fadeIn);
+      Navigator.of(
+        context,
+      ).push(MaterialPageRoute(builder: (context) => HomeView()));
     });
   }
 

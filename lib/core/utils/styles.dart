@@ -6,20 +6,20 @@ abstract class Styles {
     fontWeight: FontWeight.w600,
   );
   static const textStyle20 = TextStyle(
-    fontSize: 20,
+    fontSize: 18,
     fontWeight: FontWeight.normal,
   );
   static const textStyle30 = TextStyle(
-    fontSize: 20,
+    fontSize: 18,
     fontWeight: FontWeight.w900,
   );
   static const textStyle14 = TextStyle(
-    fontSize: 14,
+    fontSize: 12,
     fontWeight: FontWeight.normal,
   );
 
   static const textStyle16 = TextStyle(
-    fontSize: 14,
+    fontSize: 12,
     fontWeight: FontWeight.w500,
   );
 }

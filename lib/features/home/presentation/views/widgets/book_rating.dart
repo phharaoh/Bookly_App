@@ -4,7 +4,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 
 class BookRating extends StatelessWidget {
-  const BookRating({super.key});
+  const BookRating({super.key, required MainAxisAlignment mainAxisAlignment});
 
   @override
   Widget build(BuildContext context) {
