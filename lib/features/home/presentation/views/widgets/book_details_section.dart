@@ -1,4 +1,3 @@
-import 'book_rating.dart';
 import 'books_action.dart';
 import 'custom_book_item.dart';
 import 'package:flutter/material.dart';
@@ -37,7 +36,7 @@ class BookDetailsSection extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 18),
-        const BookRating(mainAxisAlignment: MainAxisAlignment.center),
+        // const BookRating(mainAxisAlignment: MainAxisAlignment.center, count: null,, rate: null,),
         const SizedBox(height: 37),
         const BooksAction(),
       ],
