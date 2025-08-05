@@ -3,8 +3,6 @@ import 'package:bookly_app/features/home/presentation/views/widgets/book_details
 import 'package:bookly_app/features/home/presentation/views/widgets/similar_books_section.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/custom_details_appbar.dart';
 
-
-
 class BookDetailsViewBody extends StatelessWidget {
   const BookDetailsViewBody({super.key});
 
@@ -20,15 +18,9 @@ class BookDetailsViewBody extends StatelessWidget {
               children: const [
                 CustomBookDetailsAppBar(),
                 BookDetailsSection(),
-                Expanded(
-                  child: SizedBox(
-                    height: 50,
-                  ),
-                ),
+                Expanded(child: SizedBox(height: 50)),
                 SimilarBooksSection(),
-                SizedBox(
-                  height: 40,
-                ),
+                SizedBox(height: 40),
               ],
             ),
           ),
